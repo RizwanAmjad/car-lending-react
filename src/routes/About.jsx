@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Flex } from "@chakra-ui/react"
+import { Flex } from "@chakra-ui/react"
 import { motion } from "framer-motion"
 import TextImage from "../components/TextImage"
 
