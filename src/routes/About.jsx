@@ -16,14 +16,12 @@ function About(props) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <Box>
-        <TextImage image={image} text="About" />
-        <AboutItem
-          title="Welcome to Car Lending Service"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut purus mattis, blandit elit quis, malesuada sapien. Proin ac pulvinar ipsum. Pellentesque dignissim mollis mattis."
-          image={require("../images/cars-img/offer-toyota.png")}
-        />
-      </Box>
+      <TextImage image={image} text="About" />
+      <AboutItem
+        title="Welcome to Car Lending Service"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut purus mattis, blandit elit quis, malesuada sapien. Proin ac pulvinar ipsum. Pellentesque dignissim mollis mattis."
+        image={require("../images/cars-img/offer-toyota.png")}
+      />
 
       <AboutItem
         title="Lorem ipsum dolor sit amet."

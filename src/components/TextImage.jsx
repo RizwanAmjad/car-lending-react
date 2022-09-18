@@ -1,7 +1,7 @@
 import React from "react"
 import { Box, Image, Text } from "@chakra-ui/react"
 
-function TextImage({ image, text }) {
+function TextImage({ image, text, ...otherProps }) {
   return (
     <Box
       height="36"
@@ -10,6 +10,7 @@ function TextImage({ image, text }) {
       textAlign="center"
       color="white"
       bgColor="purple.900"
+      {...otherProps}
     >
       <Image
         src={image}

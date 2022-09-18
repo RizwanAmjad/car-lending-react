@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Mercedes",
+    "rent": 50,
+    "model": 2022,
+    "transmission": "Manual",
+    "milage": 20,
+    "image": "mercedes-offer.png"
+  },
+  {
+    "name": "BMW",
+    "rent": 80,
+    "model": 2021,
+    "transmission": "Automatic",
+    "milage": 12,
+    "image": "bmw-offer.png"
+  },
+  {
+    "name": "Nissan",
+    "rent": 25,
+    "model": 2020,
+    "transmission": "Manual",
+    "milage": 22,
+    "image": "nissan-offer.png"
+  },
+  {
+    "name": "Toyota",
+    "rent": 65,
+    "model": 2022,
+    "transmission": "Automatic",
+    "milage": 18,
+    "image": "offer-toyota.png"
+  },
+  {
+    "name": "Tesla",
+    "rent": 45,
+    "model": 2020,
+    "transmission": "Automatic",
+    "milage": 20,
+    "image": "tesla.jpg"
+  },
+
+  {
+    "name": "Toyota",
+    "rent": 25,
+    "model": 2021,
+    "transmission": "Automatic",
+    "milage": 24,
+    "image": "toyota-offer-2.png"
+  }
+]
