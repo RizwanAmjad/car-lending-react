@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Grid, GridItem } from "@chakra-ui/react"
+
+import Nav from "./components/Nav"
+import Footer from "./components/Footer"
+import AnimatedRoutes from "./components/AnimatedRoutes"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Grid height="100vh" templateRows="min-content 1fr min-content">
+      <GridItem>
+        <Nav />
+      </GridItem>
+      <GridItem>
+        <AnimatedRoutes />
+      </GridItem>
+      <GridItem>
+        <Footer />
+      </GridItem>
+    </Grid>
+  )
 }
 
-export default App;
+export default App
